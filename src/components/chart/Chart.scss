@@ -1,0 +1,119 @@
+.chart{
+    background-color: #fff;
+    max-width:68.5vw;
+    height:12rem;
+    padding-bottom:2rem;
+    padding-left: 1rem;
+    padding-right:1.5rem ;
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:1.5rem;
+    border-radius:20px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap:0.2rem;
+        padding-top:1%;
+        padding-left:0.8%;
+        padding-bottom:2%;
+        .action{
+            font-family: 'Montserrat', sans-serif;
+            font-weight:700;
+            font-size:1.4rem;
+        }
+        .data{
+            font-family: 'Montserrat', sans-serif;
+            font-weight:400;
+            font-size: 0.6rem;
+        }
+    }
+    .line{
+        font-family: 'Lato', sans-serif;
+        font-weight:400;
+        font-size:0.8rem;
+       
+   }
+   
+}
+@media (max-width:1400px) and (min-width:879px){
+    .chart{
+        background-color: #fff;
+        width:70vw;
+        height:10rem;
+        padding-bottom:2rem;
+        padding-left: 1rem;
+        padding-right:1rem ;
+        margin-left:4rem;
+        margin-right:4rem;
+        margin-top:2rem;
+        border-radius:20px;
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap:0.2rem;
+            padding-top:2%;
+            padding-left:2.5%;
+            padding-bottom:2%;
+            .action{
+                font-family: 'Montserrat', sans-serif;
+                font-weight:700;
+                font-size:1rem;
+            }
+            .data{
+                font-family: 'Montserrat', sans-serif;
+                font-weight:400;
+                font-size: 0.6rem;
+            }
+        }
+        .line{
+            font-family: 'Lato', sans-serif;
+            font-weight:400;
+            font-size:0.4rem;
+           
+       }
+       
+    }
+}
+
+@media (max-width:880px) and (min-width:360px){
+
+    .chart{
+        background-color: #fff;
+        width:40vw;
+        height:10rem;
+        padding-bottom:0.2rem;
+        padding-left:0rem;
+        padding-right:1rem ;
+        margin-left:1.5rem;
+        margin-right:2rem;
+        margin-top:0.4rem;
+        border-radius:20px;
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap:0.2rem;
+            padding-top:2%;
+            padding-left:1rem;
+            padding-bottom:2%;
+            .action{
+                font-family: 'Montserrat', sans-serif;
+                font-weight:700;
+                font-size:1rem;
+            }
+            .data{
+                font-family: 'Montserrat', sans-serif;
+                font-weight:400;
+                font-size: 0.6rem;
+            }
+        }
+        .line{
+            font-family: 'Lato', sans-serif;
+            font-weight:400;
+            font-size:0.4rem;
+           margin-left:0px;
+           margin-right:10px;
+           padding-left: 0px;
+       }
+       
+    }
+}
